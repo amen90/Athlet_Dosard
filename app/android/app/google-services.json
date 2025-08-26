@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "860111447200",
+    "project_id": "trackervest-4e4f4",
+    "storage_bucket": "trackervest-4e4f4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860111447200:android:9642f61136bb0899bc95c5",
+        "android_client_info": {
+          "package_name": "com.example.trackervest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwXZesct-l45z1ZqaLdA9XGDX4pnPzMbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

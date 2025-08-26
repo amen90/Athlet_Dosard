@@ -1,0 +1,16 @@
+../Core/Src/max30100_for_stm32_hal.c:18:26:MAX30100_ReadTemperatureRegisters	3
+../Core/Src/max30100_for_stm32_hal.c:24:19:MAX30100_ReadReg	3
+../Core/Src/max30100_for_stm32_hal.c:33:19:MAX30100_WriteReg	3
+../Core/Src/max30100_for_stm32_hal.c:42:19:MAX30100_Reset	7
+../Core/Src/max30100_for_stm32_hal.c:65:19:MAX30100_Init	12
+../Core/Src/max30100_for_stm32_hal.c:101:19:MAX30100_ConfigInterrupts	3
+../Core/Src/max30100_for_stm32_hal.c:108:6:MAX30100_InterruptHandler	6
+../Core/Src/max30100_for_stm32_hal.c:136:19:MAX30100_SetMode	2
+../Core/Src/max30100_for_stm32_hal.c:144:19:MAX30100_SetSpO2SampleRate	2
+../Core/Src/max30100_for_stm32_hal.c:152:19:MAX30100_SetLedPulseWidth	2
+../Core/Src/max30100_for_stm32_hal.c:160:19:MAX30100_SetLedCurrents	1
+../Core/Src/max30100_for_stm32_hal.c:165:19:MAX30100_ClearFIFO	4
+../Core/Src/max30100_for_stm32_hal.c:172:19:MAX30100_ReadFifoData	5
+../Core/Src/max30100_for_stm32_hal.c:198:19:MAX30100_ReadTemperature	10
+../Core/Src/max30100_for_stm32_hal.c:249:19:MAX30100_Shutdown	2
+../Core/Src/max30100_for_stm32_hal.c:256:19:MAX30100_WakeUp	2

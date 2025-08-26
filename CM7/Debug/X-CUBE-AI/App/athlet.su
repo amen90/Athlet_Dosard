@@ -1,0 +1,13 @@
+../X-CUBE-AI/App/athlet.c:361:9:athlet_configure_activations	16	static
+../X-CUBE-AI/App/athlet.c:394:9:athlet_configure_weights	16	static
+../X-CUBE-AI/App/athlet.c:433:9:ai_athlet_get_info	160	static
+../X-CUBE-AI/App/athlet.c:480:9:ai_athlet_get_report	160	static
+../X-CUBE-AI/App/athlet.c:527:10:ai_athlet_get_error	16	static
+../X-CUBE-AI/App/athlet.c:534:10:ai_athlet_create	24	static
+../X-CUBE-AI/App/athlet.c:545:10:ai_athlet_create_and_init	88	static
+../X-CUBE-AI/App/athlet.c:580:12:ai_athlet_inputs_get	16	static
+../X-CUBE-AI/App/athlet.c:591:12:ai_athlet_outputs_get	16	static
+../X-CUBE-AI/App/athlet.c:602:11:ai_athlet_destroy	16	static
+../X-CUBE-AI/App/athlet.c:609:9:ai_athlet_init	24	static
+../X-CUBE-AI/App/athlet.c:626:8:ai_athlet_run	24	static
+../X-CUBE-AI/App/athlet.c:634:8:ai_athlet_forward	16	static

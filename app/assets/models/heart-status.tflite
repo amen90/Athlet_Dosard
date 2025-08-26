@@ -1,0 +1,14 @@
+// This is a placeholder for the TensorFlow Lite model file.
+// You'll need to train a proper model and convert it to TFLite format.
+// For now, we'll use a simple model that takes 4 inputs:
+// 1. Heart Rate (normalized)
+// 2. Temperature (normalized)
+// 3. Age (normalized)
+// 4. Gender (binary)
+//
+// And outputs 2 classes:
+// 1. Normal (probability)
+// 2. Abnormal (probability)
+//
+// The actual model file should be in binary format, not text.
+// You can train a model using TensorFlow/Keras and convert it to TFLite. 

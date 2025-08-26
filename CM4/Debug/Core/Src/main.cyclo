@@ -1,0 +1,17 @@
+../Core/Src/main.c:103:13:secure_uart_send	1
+../Core/Src/main.c:149:5:main	8
+../Core/Src/main.c:284:6:processMAX30100Data	12
+../Core/Src/main.c:347:7:calculateDC	3
+../Core/Src/main.c:356:7:calculateAC	5
+../Core/Src/main.c:367:5:countPeaks	8
+../Core/Src/main.c:387:6:readLM35Temperature	5
+../Core/Src/main.c:430:13:MX_ADC1_Init	4
+../Core/Src/main.c:499:13:MX_I2C1_Init	4
+../Core/Src/main.c:547:13:MX_TIM6_Init	3
+../Core/Src/main.c:585:13:MX_USART3_UART_Init	5
+../Core/Src/main.c:631:13:MX_DMA_Init	1
+../Core/Src/main.c:649:13:MX_GPIO_Init	1
+../Core/Src/main.c:681:17:ITM_SendChar0	4
+../Core/Src/main.c:693:5:_write	2
+../Core/Src/main.c:711:6:StartDefaultTask	1
+../Core/Src/main.c:726:6:Error_Handler	1

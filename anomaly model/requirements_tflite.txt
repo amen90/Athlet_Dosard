@@ -1,0 +1,30 @@
+# Core Machine Learning and TensorFlow
+tensorflow>=2.13.0,<3.0.0
+numpy>=1.21.0,<2.0.0
+
+# Data Processing and Analysis
+pandas>=1.3.0,<3.0.0
+scikit-learn>=1.0.0,<2.0.0
+
+# Visualization (for training script)
+matplotlib>=3.5.0,<4.0.0
+seaborn>=0.11.0,<1.0.0
+
+# Model Persistence and Serialization
+joblib>=1.1.0,<2.0.0
+
+# Performance and Timing
+# time module is built-in, no external dependency needed
+
+# Optional: Lightweight TensorFlow Lite Runtime (alternative to full TensorFlow)
+# Uncomment the line below if you want to use TensorFlow Lite runtime only
+# tensorflow-lite-runtime>=2.13.0,<3.0.0
+
+# Development and Testing Dependencies (optional)
+# Uncomment the lines below for development environment
+# pytest>=7.0.0,<8.0.0
+# jupyter>=1.0.0,<2.0.0
+# ipykernel>=6.0.0,<7.0.0
+
+# Additional utilities for enhanced functionality (optional)
+# typing-extensions>=4.0.0,<5.0.0  # For better type hints support 

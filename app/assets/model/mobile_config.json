@@ -1,0 +1,78 @@
+{
+  "model_info": {
+    "name": "athlete_anomaly_detector",
+    "version": "1.0",
+    "input_shape": [
+      1,
+      5
+    ],
+    "output_shape": [
+      1,
+      1
+    ],
+    "threshold": 0.5
+  },
+  "preprocessing": {
+    "scaler": {
+      "mean": [
+        130.10256991987998,
+        95.09956383382,
+        4.976967278282001,
+        37.82234,
+        1.522
+      ],
+      "scale": [
+        14.704072545919214,
+        2.94924470225052,
+        1.9172122073361932,
+        0.3356687718570199,
+        1.1178175164131219
+      ],
+      "feature_names": [
+        "HeartRate",
+        "OxygenLevel",
+        "FatigueScore",
+        "tmp",
+        "Activity_encoded"
+      ]
+    },
+    "activity_encoder": {
+      "classes": [
+        "Cycling",
+        "Running",
+        "Treadmill",
+        "Weightlifting"
+      ],
+      "mapping": {
+        "Cycling": 0,
+        "Running": 1,
+        "Treadmill": 2,
+        "Weightlifting": 3
+      }
+    }
+  },
+  "supported_activities": [
+    "Cycling",
+    "Running",
+    "Treadmill",
+    "Weightlifting"
+  ],
+  "feature_ranges": {
+    "HeartRate": {
+      "min": 50,
+      "max": 220
+    },
+    "OxygenLevel": {
+      "min": 85,
+      "max": 100
+    },
+    "FatigueScore": {
+      "min": 1,
+      "max": 10
+    },
+    "tmp": {
+      "min": 35,
+      "max": 40
+    }
+  }
+}
